@@ -1,0 +1,79 @@
+*
+{
+    padding-top: 13px;
+}
+body
+{
+    background: linear-gradient(to Left,black, maroon, red);
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+}
+.header img
+{
+    border-radius: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+.header p
+{
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    color: whitesmoke;
+}
+.Link a 
+{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    width: 300px;
+    height: 20px;
+    border: solid 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: auto solid;
+    color: whitesmoke;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+a:hover
+{
+    color: purple;
+}
+.square
+{
+display: flex;
+flex-direction: center;
+justify-content: center;
+width: 400px;
+height: 50px;
+border: auto solid;
+color: whitesmoke;
+display: block;
+text-decoration: none;
+margin-bottom: 10px;
+padding-top: 15px;
+}
+.footer > p
+{
+font-family: 'Courier New', Courier, monospace;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+text-align: center;
+color: whitesmoke;
+}
